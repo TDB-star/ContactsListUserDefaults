@@ -19,6 +19,8 @@ class ContactsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        contacts = StorageManager.shared.fetchContact()
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -47,6 +49,7 @@ extension ContactsViewController: UITableViewDataSource, UITableViewDelegate, Ne
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             contacts.remove(at: indexPath.row)
+            StorageManager.shared.deleteContact(at: indexPath.row)
             contactsTableView.deleteRows(at: [indexPath], with: .automatic)
         }
     }

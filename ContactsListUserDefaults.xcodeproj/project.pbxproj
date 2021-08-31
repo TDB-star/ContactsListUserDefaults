@@ -14,6 +14,7 @@
 		5D626A6D26DE4B540022495B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D626A6C26DE4B540022495B /* Assets.xcassets */; };
 		5D626A7026DE4B540022495B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D626A6E26DE4B540022495B /* LaunchScreen.storyboard */; };
 		5D626A7826DE4CCF0022495B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D626A7726DE4CCF0022495B /* DetailViewController.swift */; };
+		5D626A7A26DE5BA00022495B /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D626A7926DE5BA00022495B /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5D626A6F26DE4B540022495B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D626A7126DE4B540022495B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D626A7726DE4CCF0022495B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5D626A7926DE5BA00022495B /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				5D626A6526DE4B520022495B /* SceneDelegate.swift */,
 				5D626A6726DE4B520022495B /* ContactsViewController.swift */,
 				5D626A7726DE4CCF0022495B /* DetailViewController.swift */,
+				5D626A7926DE5BA00022495B /* StorageManager.swift */,
 				5D626A6926DE4B520022495B /* Main.storyboard */,
 				5D626A6C26DE4B540022495B /* Assets.xcassets */,
 				5D626A6E26DE4B540022495B /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			files = (
 				5D626A6826DE4B520022495B /* ContactsViewController.swift in Sources */,
 				5D626A6426DE4B520022495B /* AppDelegate.swift in Sources */,
+				5D626A7A26DE5BA00022495B /* StorageManager.swift in Sources */,
 				5D626A6626DE4B520022495B /* SceneDelegate.swift in Sources */,
 				5D626A7826DE4CCF0022495B /* DetailViewController.swift in Sources */,
 			);

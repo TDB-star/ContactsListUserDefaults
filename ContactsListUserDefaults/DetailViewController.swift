@@ -40,7 +40,9 @@ class DetailViewController: UIViewController {
     private func saveNewContact() {
         guard let firstName = firstNameTextField.text else { return }
         guard let lastName = lastNameTextField.text else { return }
-        delegate.saveContact("\(firstName) \(lastName)")
+        let fullName = "\(firstName) \(lastName)"
+        StorageManager.shared.save(contact: fullName)
+        delegate.saveContact(fullName)
         dismiss(animated: true)
         
     }
